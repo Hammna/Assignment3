@@ -1,0 +1,120 @@
+ul{
+    display: block;
+    list-style: none;
+    padding: 10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+}
+.bg-theme{
+    background-color: #316dc3;
+}
+.header-top{
+    padding: 5px 0;
+}
+.social-icon-nav{
+    margin-bottom: 30px;
+}
+
+.social-icons{
+    color: white !important;
+}
+.social-icon-nav .no-border ul li{
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+ul.social-icons{
+    margin-top: 3px;
+}
+.social-icons li{
+    display: inline-block;
+    height: 10px;
+    vertical-align: top;
+    margin-top: 0;
+}
+.social-icons a{
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook{
+    padding: 5px;
+    color:blue;
+    /* background-color: #316dc3;  */
+    /* height: 5px; */
+}
+
+.fa-twitter{
+    padding: 5px;
+    color:lightblue;
+    /* background-color: #316dc3;  */
+}
+.fa-youtube{
+    padding: 5px;
+    color: red;
+    /* background-color: #316dc3;  */
+}
+.fa-instagram{
+    padding: 5px;
+    color: violet;
+    /* background-color: #316dc3;  */
+}
+.fa-whatsapp{
+    padding: 5px;
+    color: lightgreen;
+    /* background-color: #316dc3;  */
+}
+.list-inline{
+    /* padding-left: 0;
+    margin-left: 5px; */
+    list-style: none;
+}
+.list-inline>li{
+    display: inline-flex;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.pull-right{
+    float: right!important;
+}
+.btn-outline-success{
+    background-color: #fff !important   ;
+}
+.btn {
+    font-size: 13px;
+    padding: 8px 22px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.btn-default {
+    color: #fff;
+    /* background-color: #006618; */
+    border-color: #006618;
+    /* color: #333; */
+    background-color: #fff; 
+    /* border-color: #ccc; */
+}
+.btn-flat {
+    border-radius: 0;
+}
+.btn-group-xs>.btn, .btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}   

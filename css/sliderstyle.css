@@ -1,0 +1,234 @@
+
+section {
+    position: relative;
+  }
+  section > .container,
+  section > .container-fluid {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    height: 40px;
+    width: 40px;
+}
+.marquee a{
+    display: inline;
+}
+
+.section-title {
+    
+    margin-bottom: 30px;
+    padding-left: 120px;
+    padding-right: inherit;
+}
+
+.line-height-1 {
+    line-height: 1 !important;
+}
+.section-title h2{
+    color:#316dc3 ;
+    font-family: 'Merriweather', serif;
+    white-space: nowrap;
+}
+.text-themeout-color{
+    color: #427900 !important;
+    font-weight: 600 !important;
+}
+.title-icon {
+    margin: 0 auto;
+    max-width: 160px;
+    position: relative;
+}
+.title-icon::before{
+    content: "";
+    background: #427900;
+    height: 2px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 36px;
+}
+.title-icon::after{
+    content: "";
+    background: #427900;
+    height: 2px;
+    left: 10px;
+    position: absolute;
+    top: 30px;
+    width: 36px;
+}
+.text-left{
+    text-align: left;
+}
+.divider {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.parallex{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+.layer-overlay {
+    position: relative;
+    background-color: #316DC3;
+}
+.mobile-parallax{
+    background-size: cover;
+    /* background-attachment: scroll; */
+    background-position: 100%;
+}
+.overlay-theme-colored-8:before {
+    background-color: rgba(36, 79, 242, 0.8) !important;
+    content: " ";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.funfact{
+    transition: all 0.5s ease;  
+}
+
+.funfact h2 {
+    position: relative;
+}
+h5{
+    line-height: 1.42857143 !important;
+}
+.divider h5{
+    font-size: 1rem;
+}
+.bg-light-sliver{
+    background-color: #f7f8fa !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+.box-shadow1{
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+.p-30 {
+    padding: 30px !important;
+}
+.mt-20 {
+    margin-top: 20px !important;
+}
+.font-weight-600{
+font-weight: 600 !important;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+.pb-30{
+    padding-bottom: 30px !important;
+}
+/* section > .container, section > .container-fluid {
+    padding-top: 60px;
+    padding-bottom: 60px;
+} */
+.mt-0{
+    margin-top: 0;
+}
+.line-bottom{
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px !important;
+}
+.p-15{
+    padding: 15px !important;
+}
+.border-1{
+    border: 1px solid #eeeeee !important;
+}
+.iconbox{
+    margin-bottom: 30px;
+}
+.iconbox.left{
+    text-align: left;
+}
+.iconbox.left a {
+    margin-right: 30px;
+    padding: 0;
+}
+.font-15{
+    font-size: 15px !important;
+}
+.media-body, .media-left, .media-right {
+    display: table-cell !important;
+    vertical-align: top !important;
+}
+.media-body{
+    width: 10000px;
+}
+.media-body h4{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3;
+}
+.border-bottom{
+    border-bottom: 1px solid #eeeeee !important;
+}
+line-bottom:after {
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+.display-table{
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.display-table-cell{
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.pt-0{
+    padding-top: 0;
+} 
+.pb-0{
+    padding-bottom: 0;
+}
+.gallery-isotope .gallery-item{
+    overflow: hidden;
+}
+.gallery-isotope.grid-5 .gallery-item {
+    width: 20%;
+}
+.gallery-isotope.gutter-small .gallery-item {
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+.gallery-isotope .gallery-item .thumb {
+    position: relative;
+    overflow: hidden;
+}
+.full-width{
+    width: 100% !important;
+}

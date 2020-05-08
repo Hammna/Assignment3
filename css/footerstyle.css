@@ -1,0 +1,133 @@
+.footer{
+    background-position: initial !important;
+    background-size: initial !important;
+    background-repeat: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: rgb(37, 39, 46) !important;
+}
+.pb-40{
+    padding-bottom: 40px;
+} 
+.pt-70{
+    padding-top: 70px;
+}
+.widget{
+    margin-bottom: 30px;
+    color: #bbb;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.m-0{
+    margin: 0;
+} 
+.pl-10{
+    padding-left: 10px !important;
+} 
+.pr-10{
+    padding-right: 10px !important;
+}
+.text-color{
+    color: #427900 !important;
+} 
+.mr-5{
+    margin-right: 5px !important;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.widget ul li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.widget .widget-title{
+    margin-bottom: 20px;
+}
+
+.widget.dark .widget-title.line-bottom{
+    border-bottom: 1px solid #444;
+}
+.line-bottom{
+    position: relative;
+    padding-bottom: 10px;
+}
+.widget h5{
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+  
+}
+ .line-bottom:after{
+    /* border: 1px solid #427900; */
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    background: #427900;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.styled-icon li{
+    display: inline-block;
+    margin-top: 0;
+}
+.styled-icon.icon-sm a{
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px 7px 2px 0;
+    width: 30px;
+}
+.styled-icon.icon-dark a{
+    display: block;
+    width: 36px;
+    text-align: center;
+}
+.icon-dark.icon-theme a{
+    background-color: #316dc3;
+    color: #fff;
+}
+.icon-circled.icon-sm a{
+    border-radius: 50%;
+}
+.bg-color{
+    background-color: #316dd9 !important
+}
+.pb-10{
+    padding-bottom: 10px;
+} 
+.pt-15{
+    padding-top: 15px;
+}
+.scrollToTop{
+    background-color: rgba(0,0,0,0.1);
+    bottom: 15px;
+    height: 50px;
+    padding: 2px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    z-index: 9999;
+}
+a {
+    color: #808080
+    text-decoration: none;
+    background-color: transparent;
+}
